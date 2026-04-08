@@ -1,0 +1,22 @@
+{
+  "name": "lumina-tracker",
+  "version": "1.0.0",
+  "description": "CLI tracker for Lumina Ledger impact entries",
+  "main": "src/index.js",
+  "bin": {
+    "lumina-tracker": "src/index.js"
+  },
+  "scripts": {
+    "start":   "node src/index.js",
+    "test":    "node --test",
+    "lint":    "eslint src/"
+  },
+  "dependencies": {
+    "commander":  "^11.0.0",
+    "ethers":     "^6.9.0",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
