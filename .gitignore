@@ -19,6 +19,7 @@ contracts/coverage.json
 
 # Go
 node/lumina-node
+node/node
 node/*.exe
 
 # Environment files — NEVER commit these
