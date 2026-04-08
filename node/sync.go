@@ -159,11 +159,8 @@ type LeaderboardEntry struct {
 //                uint256 quantity, uint256 impactScore, bytes32 proofHash)
 //
 // keccak256("EntrySubmitted(uint256,address,uint8,uint256,uint256,bytes32)")
-const entrySubmittedTopic = "0x" +
-	"b5a9b1fc7a4e67c7c9af2d8b16b7b9acd1b6e1b3d3f7e6a5c4b2a1b0c9d8e7f"
-
-// NOTE: The above is a placeholder. In production derive it with:
-//   ethers.id("EntrySubmitted(uint256,address,uint8,uint256,uint256,bytes32)")
+// Verified with: ethers.id("EntrySubmitted(uint256,address,uint8,uint256,uint256,bytes32)")
+const entrySubmittedTopic = "0x986b0b62f9953813275a54cf4260648401e5095c98bc868dd7fca7a2f77369ae"
 
 // Syncer polls an Ethereum JSON-RPC endpoint for new blocks and
 // extracts EntrySubmitted events.
