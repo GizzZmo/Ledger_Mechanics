@@ -65,7 +65,7 @@ Options:
 
 ### `categorize`
 
-AI-assisted categorisation of a spend description via the Groq API (falls back to rule-based mock if no API key is provided).
+AI-assisted categorization of a spend description via the Groq API (falls back to rule-based mock if no API key is provided).
 
 ```
 Options:
@@ -92,7 +92,7 @@ Options:
 | `RPC_URL`         | JSON-RPC provider endpoint           |
 | `SIGNER_KEY`      | Private key for signing transactions |
 | `LEDGER_ADDRESS`  | Deployed LuminaLedger address        |
-| `GROQ_API_KEY`    | Groq API key for AI categorisation   |
+| `GROQ_API_KEY`    | Groq API key for AI categorization   |
 
 ## Proof Generation Details
 

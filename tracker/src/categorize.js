@@ -1,7 +1,7 @@
 "use strict";
 
 /**
- * categorize.js — AI-assisted spend categorisation.
+ * categorize.js — AI-assisted spend categorization.
  *
  * In production mode this calls the Groq Chat Completions API.
  * When opts.mock=true (or no API key) a rule-based heuristic is used instead,
@@ -41,7 +41,7 @@ async function categorizeSpend(description, opts = {}) {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Mock (rule-based) categorisation
+// Mock (rule-based) categorization
 // ─────────────────────────────────────────────────────────────────────────────
 
 const ENERGY_KEYWORDS  = /\b(kwh|solar|wind|electricity|power|ev|electric\s+vehicle|battery|grid|renewable|generator|heat\s*pump|hvac)\b/i;
@@ -76,7 +76,7 @@ function _mockCategorize(description) {
 }
 
 // ─────────────────────────────────────────────────────────────────────────────
-// Groq API categorisation
+// Groq API categorization
 // ─────────────────────────────────────────────────────────────────────────────
 
 const GROQ_API_URL = "https://api.groq.com/openai/v1/chat/completions";

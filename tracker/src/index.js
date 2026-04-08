@@ -121,7 +121,7 @@ program
 
 program
   .command("categorize")
-  .description("AI-assisted categorisation of a spend description")
+  .description("AI-assisted categorization of a spend description")
   .requiredOption("-d, --description <text>", "Natural-language spend description")
   .option("--api-key <key>", "Groq API key", process.env.GROQ_API_KEY || "")
   .option("--mock", "Use mock response (no API call)", false)
